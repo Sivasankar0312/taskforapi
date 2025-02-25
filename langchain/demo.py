@@ -26,7 +26,7 @@ from langchain_community.agent_toolkits import SQLDatabaseToolkit
 db = SQLDatabase.from_uri("sqlite:///financial_data.db")
 print(db.dialect)
 print(db.get_usable_table_names())
-llm = ChatAnthropic(model='claude-3-opus-20240229',api_key='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')
+llm = ChatAnthropic(model='claude-3-opus-20240229',api_key='')
 from typing import Any
 
 from langchain_core.messages import ToolMessage
