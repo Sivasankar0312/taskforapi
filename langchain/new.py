@@ -15,7 +15,7 @@ print(db.dialect)
 print(db.get_usable_table_names())
 print(db.run("SELECT * FROM financial_data LIMIT 10;"))
 
-llm = ChatAnthropic(model='claude-3-opus-20240229',api_key='')
+llm = ChatAnthropic(model='claude-3-opus-20240229')
 from typing import Any
 
 from langchain_core.messages import ToolMessage
